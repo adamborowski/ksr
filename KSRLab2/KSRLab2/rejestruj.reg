@@ -1,0 +1,17 @@
+REGEDIT4
+
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{5769F7B4-46EB-4F5C-AC67-8F29B1926EE4}]
+@="adamborowskipl.ksr.1"
+
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{5769F7B4-46EB-4F5C-AC67-8F29B1926EE4}\InProcServer32]
+@="C:\\Users\\adam\\Documents\\GitHub\\ksr\\KSRLab2\\Debug\\KSRLab2.dll"
+"ThreadingModel"="Both”
+
+
+;HKEY_CLASSES_ROOT\CLSID\{ clsid }
+;wartoœæ domyœlna = nazwa naszej klasy
+;HKEY_CLASSES_ROOT\CLSID\{ clsid }\InProcServer32
+;wartoœæ domyœlna = pe³na œcie¿ka do naszej DLL (nale¿y pamiêtaæ cudzys³owach i podwójnych
+
