@@ -3,6 +3,7 @@
 
 //IStos to tablica wskaŸników na funkcje (przypadek, ¿e COM zwraca tablicê która siê deserializuje do interfejsu)
 class IStos: public IUnknown {
+public:
 	virtual HRESULT STDMETHODCALLTYPE Push(int val) = 0;
 	virtual HRESULT STDMETHODCALLTYPE Pop(int *val) = 0;
 };

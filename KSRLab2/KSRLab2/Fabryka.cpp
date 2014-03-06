@@ -7,7 +7,7 @@ HRESULT STDMETHODCALLTYPE StosFactory::QueryInterface(REFIID iid, void **ptr) {
 	if(ptr == NULL) return E_POINTER;//nie ma gdzie zwróciæ tablicy wskaŸników (virtual method table) - tutaj bêdzie to po prostu lista metod naszej klasy
 	*ptr = NULL;
 	if(iid == IID_IUnknown) *ptr = this;//pyta o unknown, u nas jest tylko jeden wiêc zwróæmy virtual method table fabryki stosu
-	else if(iid == IID_IStosFactory) *ptr = this;//pyta o stos factory, zwróæmy virtual method table fabryki stosu
+	else if(iid == IID_IClassFactory) *ptr = this;//pyta o class factory, zwróæmy virtual method table fabryki stosu
 	if(*ptr != NULL) { AddRef(); return S_OK; };//dajemy mu dostêp do naszej klasy, wiêc zwiêkszamy licznik referencji
 	return E_NOINTERFACE;
 };
@@ -23,11 +23,12 @@ ULONG STDMETHODCALLTYPE StosFactory::Release() {
 	return rv;
 };
 extern volatile ULONG usageCount;//statyczna informacja o liczbie ¿ywych obiektów
-
+#include <iostream>
 StosFactory::StosFactory() {
 	InterlockedIncrement(&usageCount);
 	m_ref = 0;
 	// pozosta³a inicjalizacja
+	std::cout<<"stos factory";
 };
 StosFactory::~StosFactory() {
 	InterlockedDecrement(&usageCount);
@@ -45,6 +46,7 @@ HRESULT STDMETHODCALLTYPE StosFactory::LockServer(BOOL lock) {
  * REFIID iid - identyfikator interfejsu z klasy stosu (np. Word -> IChart) (my tutaj mamy jeden interfejs ale mo¿e byc wiêcej)
  * void **ptr - wskaŸnik ta virtual table naszego interfejsu
  */
+
 HRESULT STDMETHODCALLTYPE StosFactory::CreateInstance(IUnknown *outer, REFIID iid, void **ptr) {
 	if(ptr == NULL) return E_POINTER; //nie ma gdzie zapisaæ
 	*ptr = NULL;

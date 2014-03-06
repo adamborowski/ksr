@@ -1,4 +1,4 @@
-﻿Build started 2014-03-06 22:55:13.
+﻿Build started 2014-03-06 23:42:19.
      1>Project "C:\Users\adam\Documents\GitHub\ksr\KSRLab2\KSRLab2\KSRLab2.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KSRLAB2_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Fabryka.cpp GUID.cpp Komponent.cpp Rejestr.cpp
@@ -17,13 +17,15 @@
      1>c:\users\adam\documents\github\ksr\ksrlab2\ksrlab2\fabryka.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.lib" /MACHINE:X86 /DLL Debug\Fabryka.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\KSRLab2\exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.lib" /MACHINE:X86 /DLL Debug\Fabryka.obj
          Debug\GUID.obj
          Debug\Komponent.obj
          Debug\Rejestr.obj
+     1>C:\Users\adam\Documents\GitHub\ksr\KSRLab2\KSRLab2\exports.def(5): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.lib and object C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.exp
          KSRLab2.vcxproj -> C:\Users\adam\Documents\GitHub\ksr\KSRLab2\Debug\KSRLab2.dll
      1>Done Building Project "C:\Users\adam\Documents\GitHub\ksr\KSRLab2\KSRLab2\KSRLab2.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.20
+Time Elapsed 00:00:02.73

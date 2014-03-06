@@ -15,39 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Komponent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Fabryka.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Rejestr.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GUID.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Komponent.h">
+    <ClInclude Include="..\KSRLab2\GUID.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Fabryka.h">
+    <ClInclude Include="..\KSRLab2\Komponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GUID.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Rejestr.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="rejestruj.reg">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="exports.def">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

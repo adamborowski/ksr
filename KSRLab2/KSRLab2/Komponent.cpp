@@ -26,6 +26,7 @@ Stos::Stos() {
 	InterlockedIncrement(&usageCount);
 	m_ref = 0;
 	// pozosta³a inicjalizacja
+	value=0;
 };
 Stos::~Stos() {
 	InterlockedDecrement(&usageCount);
