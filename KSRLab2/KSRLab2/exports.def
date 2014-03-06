@@ -7,5 +7,5 @@ DESCRIPTION     "SUPER LABORKA KSR"
 EXPORTS
                 DllGetClassObject   	PRIVATE
                 DllCanUnloadNow     	PRIVATE
-;                DllRegisterServer   	PRIVATE
-;                DllUnregisterServer 	PRIVATE
+                DllRegisterServer   	PRIVATE
+                DllUnregisterServer 	PRIVATE

@@ -1,0 +1,3 @@
+1. zmieniæ w project properties->linker->input globalny adres pliku def
+2a. zmieniæ w rejestruj.reg adres pliku dll
+2b. zamiast reg -> regsvr32 mojalib.dll (uprawnienia administratora)

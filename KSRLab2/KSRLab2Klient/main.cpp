@@ -9,7 +9,16 @@ int main(){
 
 	IStos *s;
 	HRESULT rv;
-	rv = CoCreateInstance(CLSID_Stos, NULL, CLSCTX_INPROC_SERVER, IID_IStos, (void **)&s);
+
+
+
+	CLSID CLSID_Stos_FROM_PROGID;
+	CLSIDFromProgID(L"adamborowskipl.ksr.1", &CLSID_Stos_FROM_PROGID);
+
+
+
+	rv = CoCreateInstance(CLSID_Stos_FROM_PROGID, NULL, CLSCTX_INPROC_SERVER, IID_IStos, (void **)&s);
+	//rv = CoCreateInstance(CLSID_Stos, NULL, CLSCTX_INPROC_SERVER, IID_IStos, (void **)&s);
 
 	s->Push(5);
 

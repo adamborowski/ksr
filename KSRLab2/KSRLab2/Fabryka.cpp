@@ -23,12 +23,12 @@ ULONG STDMETHODCALLTYPE StosFactory::Release() {
 	return rv;
 };
 extern volatile ULONG usageCount;//statyczna informacja o liczbie ¿ywych obiektów
-#include <iostream>
+//#include <iostream>
 StosFactory::StosFactory() {
 	InterlockedIncrement(&usageCount);
 	m_ref = 0;
 	// pozosta³a inicjalizacja
-	std::cout<<"stos factory";
+	//std::cout<<"stos factory";
 };
 StosFactory::~StosFactory() {
 	InterlockedDecrement(&usageCount);

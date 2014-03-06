@@ -47,7 +47,12 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="exports.def">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
