@@ -1,0 +1,4 @@
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\NETCOM\bin\Debug\NETCOM.dll
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\NETCOM\bin\Debug\NETCOM.pdb
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\NETCOM\obj\Debug\NETCOM.dll
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\NETCOM\obj\Debug\NETCOM.pdb

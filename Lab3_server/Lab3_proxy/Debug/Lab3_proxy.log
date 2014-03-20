@@ -1,0 +1,39 @@
+﻿Build started 2014-03-13 23:52:23.
+     1>Project "C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Lab3_proxy\Lab3_proxy.vcxproj" on node 2 (Rebuild target(s)).
+     1>Midl:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\midl.exe /W1 /nologo /char signed /env win32 /h "stos_h.h" /tlb "Debug\Lab3_proxy.tlb" ..\Lab3_midl\stos.idl 
+         Processing ..\Lab3_midl\stos.idl
+         stos.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\objidl.idl
+         objidl.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\wtypesbase.idl
+         wtypesbase.idl
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\basetsd.h
+         basetsd.h
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\shared\guiddef.h
+         guiddef.h
+         Processing C:\Program Files (x86)\Windows Kits\8.0\Include\um\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LAB3_PROXY_EXPORTS /D REGISTER_PROXY_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt /D "PROXY_CLSID_IS={0x766c1847,0x25ae,0x4cf0,{0x89,0x7,0x44,0x6,0x5b,0x5d,0x8b,0x22}}" ..\Lab3_midl\dlldata.c ..\Lab3_midl\stos_i.c ..\Lab3_midl\stos_p.c
+         stos_p.c
+         stos_i.c
+         dlldata.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Debug\Lab3_proxy.dll" /INCREMENTAL /NOLOGO rpcns4.lib rpcrt4.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Debug\Lab3_proxy.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Debug\Lab3_proxy.lib" /MACHINE:X86 /DLL Debug\dlldata.obj
+         Debug\stos_i.obj
+         Debug\stos_p.obj
+            Creating library C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Debug\Lab3_proxy.lib and object C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Debug\Lab3_proxy.exp
+         Lab3_proxy.vcxproj -> C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Debug\Lab3_proxy.dll
+     1>Done Building Project "C:\Users\adam\Documents\GitHub\ksr\Lab3_server\Lab3_proxy\Lab3_proxy.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57

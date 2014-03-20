@@ -1,0 +1,6 @@
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\netklient1\bin\Debug\netklient1.exe.config
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\netklient1\bin\Debug\netklient1.exe
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\netklient1\bin\Debug\netklient1.pdb
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\netklient1\obj\Debug\netklient1.csprojResolveAssemblyReference.cache
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\netklient1\obj\Debug\netklient1.exe
+C:\Users\adam\Documents\GitHub\ksr\lab3DOTNET\netklient1\obj\Debug\netklient1.pdb

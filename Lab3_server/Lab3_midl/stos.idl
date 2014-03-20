@@ -1,0 +1,19 @@
+import "oaidl.idl";
+[object, uuid(6B3AF78D-5998-484D-A863-A164C76AC7BE)]
+interface IStos : IUnknown {
+	HRESULT Push(int val);
+	HRESULT Pop([out]int *val);
+	HRESULT Top([out]int *val);
+};
+// opis interfejsu IStos
+[ uuid(249E5264-1D41-4472-8494-E79A7036312A),
+	helpstring("Example stack implementation"),
+	version(1.0) ]
+library KSRStack {
+	importlib("stdole32.tlb");
+	interface IStos;
+	[ uuid(E858E187-7687-4A8A-85A7-1A9EF65237AE) ]
+	coclass Stos {
+		interface IStos;
+	}
+};

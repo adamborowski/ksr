@@ -1,0 +1,6 @@
+LIBRARY Lab3_proxy.dll 
+EXPORTS 
+DllCanUnloadNow private
+DllGetClassObject private
+DllRegisterServer private
+DllUnregisterServer private
